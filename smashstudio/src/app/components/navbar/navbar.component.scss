@@ -1,0 +1,94 @@
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #000 !important;
+    color: #fff;
+    position: relative;
+    z-index: 100;
+  }
+
+  .hamburger-menu {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 2rem;
+    color: #fff;
+    cursor: pointer;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+
+  .hamburger-menu:hover {
+    color: #f39c12;
+    transform: scale(1.1);
+  }
+
+  .collapsible-menu {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .menu-list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+
+  .menu-list li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+
+  .logo img{
+    width: 90px;
+    height: auto;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+
+  .menu-list li a:hover {
+    color: #f39c12;
+    transform: scale(1.1);
+  }
+
+  @media (max-width: 670px) {
+    .hamburger-menu {
+      display: block;
+    }
+
+    .collapsible-menu {
+      flex-direction: column;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      background-color: #000;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.4s ease;
+    }
+
+    .collapsible-menu.open {
+      max-height: 300px;
+      padding: 1rem 0;
+    }
+
+    .menu-list {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .menu-list li a {
+      color: #fff;
+      text-decoration: none;
+      transition: color 0.3s ease, transform 0.3s ease;
+    }
+
+    .menu-list li a:hover {
+      color: #f39c12;
+      transform: scale(1.1);
+    }
+  }
