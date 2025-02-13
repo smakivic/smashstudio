@@ -1,0 +1,85 @@
+{
+    "about": "O nama",
+    "noRules": "PRAVILA NE POSTOJE - SAMO RAZBIJANJE",
+    "discoverExperience": "Otkrij iskustvo",
+    "bookAppointment": "Rezerviši termin",
+    "switchLanguages": "Promeni jezik u toku rada:",
+    "aboutUs": "O nama",
+    "aboutText": "Zamislite mjesto gde su pravila drugačija. Gde je bes energija, a lom oslobođenje.",
+    "aboutDescription": "Smash Studio je mjesto gdje možete razbiti stvari i osloboditi se stresa. To je zabavno iskustvo koje vam omogućuje da se opustite i uživate. Dođite sami ili s prijateljima i iskusite nešto drugačije!",
+    "howItWorks": "Kako funkcioniše",
+    "step1": "Korak 1: Oprema za zaštitu",
+    "step1Desc": "Prije nego što započnete, dobijate zaštitnu opremu kako biste bili sigurni tokom iskustva.",
+    "step2": "Korak 2: Sef za lične stvari",
+    "step2Desc": "Sve lične stvari možete bezbijedno ostaviti u zaključanom sefu.",
+    "step3": "Korak 3: Vaš prostor za destrukciju",
+    "step3Desc": "Ulazite u posebno pripremljenu sobu gde možete slobodno razbijati predmete.",
+    "step4": "Korak 4: Oslobađanje energije",
+    "step4Desc": "Osetite olakšanje i uživajte u jedinstvenom iskustvu oslobađanja stresa!",
+    "giftCardTitle": "Poklon Bon za Rage Room – Iskustvo Koje Se Pamti!",
+    "giftCardText": "Tražite originalan poklon koji pruža nezaboravno iskustvo i oslobađa stres? Naši poklon bonovi su savršen način da nekome omogućite da doživi jedinstvenu avanturu razbijanja!",
+    "contactUs": "Pošalji poruku",
+    "pricing": {
+        "title": "Cjenovnik",
+        "package1": {
+            "title": "Udri Mujo",
+            "description": "Osjetite olakšanje dok razbijate mali elektronski uređaj, 8 staklenih flaša i 2 nasumična kućna predmeta! Uživajte u 25 minuta neprekidnog uništavanja uz zaštitnu opremu za jednu osobu.",
+            "price": "Cena: 23KM"
+        },
+        "package2": {
+            "title": "Dvostruki Slom",
+            "description": "Doživite navalu adrenalina dok razbijate srednji elektronski uređaj, 12 staklenih flaša i 5 nasumičnih kućnih predmeta! Uživajte u punih 30 minuta haosa uz zaštitnu opremu za dve osobe.",
+            "price": "Cena: 48KM"
+        },
+        "package3": {
+            "title": "Grupna Terapija",
+            "description": "Savršeno za tim! Slomite šoferšajbnu, razbijte 17 staklenih flaša i 3 velike staklene flaše. Oslobodite sav stres u 40 minuta totalnog uništavanja uz zaštitnu opremu za četiri osobe.",
+            "price": "Cena: 63KM"
+        },
+        "package4": {
+            "title": "Potpuni Haos",
+            "description": "Ultimativni izazov za prave ljubitelje haosa! Uništite veliki elektronski uređaj, 3 velike staklene flaše, 20 malih staklenih flaša i 10 nasumičnih kućnih predmeta. Imate 45 minuta za potpunu destrukciju uz zaštitnu opremu za četiri osobe.",
+            "price": "Cena: 84KM"
+        },
+        "custom": {
+            "title": "Donesite Svoje Stvari",
+            "option1": "10 min - 15KM",
+            "option2": "15 min - 20KM",
+            "option3": "30 min - 25KM",
+            "note": "Zaštitna oprema uključena za 4 osobe"
+        },
+        "extras": {
+            "title": "Dodatni Predmeti",
+            "item1": "Oprema za 1 osobu - 9KM",
+            "item2": "Mala staklena flaša - 1.50KM",
+            "item3": "Velika staklena flaša - 3KM",
+            "item4": "Nasumični kućni predmet - 2KM",
+            "item5": "Mali elektronski uređaj - 11KM",
+            "item6": "Srednji elektronski uređaj - 24KM",
+            "item7": "Veliki elektronski uređaj - 38KM",
+            "item8": "Šoferšajbna - 30KM"
+        },
+        "button": "Rezervišite termin"
+    },
+    "giftCard": {
+        "title": "Poklon Bon za Rage Room – Iskustvo Koje Se Pamti!",
+        "description": "Tražite originalan poklon koji pruža nezaboravno iskustvo i oslobađa stres? Naši poklon bonovi su savršen način da nekome omogućite da doživi jedinstvenu avanturu razbijanja!",
+        "list": {
+            "item1": "✅ Savršen poklon za svaku priliku – rođendani, godišnjice, slavlje ili znak pažnje",
+            "item2": "✅ Jednostavna kupovina – dođete, odaberete željeni paket, dobijete bon sa kojim obradujete nekoga posebnim iskustvom",
+            "item3": "✅ Fleksibilno korišćenje – primalac poklon bona bira datum i vrijeme koje mu najviše odgovara"
+        },
+        "highlight": "Poklonite adrenalinsko iskustvo koje će se prepričavati!"
+    },
+    "contact": {
+        "title": "Kontakt",
+        "form": {
+            "namePlaceholder": "Ime",
+            "emailPlaceholder": "Email",
+            "messagePlaceholder": "Poruka",
+            "submitButton": "Pošalji poruku"
+        }
+    },
+    "footer-rights": "Sva prava zadržana",
+    "footer-credits": "Napravljeno od strane:"
+}

@@ -1,0 +1,85 @@
+{
+    "about": "About us",
+    "noRules": "RULES DON'T EXIST - ONLY BREAKING",
+    "discoverExperience": "Discover the experience",
+    "bookAppointment": "Book an appointment",
+    "switchLanguages": "Switch languages at runtime:",
+    "aboutUs": "About us",
+    "aboutText": "Imagine a place where rules are different. Where rage is energy, and breaking is liberation.",
+    "aboutDescription": "Smash Studio is a place where you can break things and relieve stress. It's a fun experience that allows you to relax and enjoy. Come alone or with friends and experience something different!",
+    "howItWorks": "How it works",
+    "step1": "Step 1: Protective gear",
+    "step1Desc": "Before you start, you get protective gear to ensure your safety during the experience.",
+    "step2": "Step 2: Secure locker",
+    "step2Desc": "You can safely store all personal belongings in a locked locker.",
+    "step3": "Step 3: Your destruction space",
+    "step3Desc": "Enter a specially prepared room where you can freely smash objects.",
+    "step4": "Step 4: Release energy",
+    "step4Desc": "Feel relief and enjoy the unique experience of stress relief!",
+    "giftCardTitle": "Gift Card for Rage Room – A Memorable Experience!",
+    "giftCardText": "Looking for an original gift that provides an unforgettable experience and relieves stress? Our gift cards are the perfect way to let someone experience a unique smashing adventure!",
+    "contactUs": "Send Message",
+    "pricing": {
+        "title": "Pricing",
+        "package1": {
+            "title": "Smash Mujo",
+            "description": "Feel the relief as you smash a small electronic device, 8 glass bottles, and 2 random household items! Enjoy 25 minutes of uninterrupted destruction with protective gear included for one person.",
+            "price": "Price: 23KM"
+        },
+        "package2": {
+            "title": "Double Breakdown",
+            "description": "Experience an adrenaline rush while smashing a medium electronic device, 12 glass bottles, and 5 random household items! Enjoy a full 30 minutes of chaos, with protective gear for two people.",
+            "price": "Price: 48KM"
+        },
+        "package3": {
+            "title": "Group Therapy",
+            "description": "Perfect for a team! Break a car windshield, smash 17 glass bottles, and 3 large glass bottles. Release all your stress in 40 minutes of total destruction with protective gear for four people.",
+            "price": "Price: 63KM"
+        },
+        "package4": {
+            "title": "Total Chaos",
+            "description": "The ultimate challenge for real chaos lovers! Destroy a large electronic device, 3 glass bottles, 20 small glass bottles, and 10 random household items. You have 45 minutes for total destruction, with protective gear for four people.",
+            "price": "Price: 84KM"
+        },
+        "custom": {
+            "title": "Bring Your Own Stuff",
+            "option1": "10 min - 15KM",
+            "option2": "15 min - 20KM",
+            "option3": "30 min - 25KM",
+            "note": "Protective gear included for 4 people"
+        },
+        "extras": {
+            "title": "Additional Items",
+            "item1": "Gear for 1 person - 9KM",
+            "item2": "Small glass bottle - 1.50KM",
+            "item3": "Large glass bottle - 3KM",
+            "item4": "Random household item - 2KM",
+            "item5": "Small electronic device - 11KM",
+            "item6": "Medium electronic device - 24KM",
+            "item7": "Large electronic device - 38KM",
+            "item8": "Car windshield - 30KM"
+        },
+        "button": "Book a session"
+    },
+    "giftCard": {
+        "title": "Gift Card for Rage Room – An Experience to Remember!",
+        "description": "Looking for an original gift that provides an unforgettable experience and relieves stress? Our gift cards are the perfect way to give someone a smashing adventure!",
+        "list": {
+            "item1": "✅ Perfect gift for any occasion – birthdays, anniversaries, celebrations, or as a thoughtful gesture",
+            "item2": "✅ Easy purchase – visit us, choose your package, and get a gift card to surprise someone with a special experience",
+            "item3": "✅ Flexible usage – the gift card recipient can choose the date and time that suits them best"
+        },
+        "highlight": "Give the gift of an adrenaline-filled experience they'll talk about for years!"
+    },
+    "contact": {
+        "title": "Contact",
+        "form": {
+            "namePlaceholder": "Name",
+            "emailPlaceholder": "Email",
+            "messagePlaceholder": "Message",
+            "submitButton": "Send Message"
+        }
+    },
+    "footer-rights": "All rights reserved",
+    "footer-credits": "Made by:"
+}

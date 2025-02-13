@@ -3,11 +3,18 @@
   <button class="hamburger-menu" (click)="toggleNavbar()">☰</button>
 
   <div class="collapsible-menu" [ngClass]="{ 'open': isNavbarCollapsed }">
-    <ul class="menu-list">
-      <li><a href="#about" (click)="closeNavbar()">O nama</a></li>
-      <li><a href="#how-it-works" (click)="closeNavbar()">Kako funkcioniše</a></li>
-      <li><a href="#pricing" (click)="closeNavbar()">Cjenovnik</a></li>
-      <li><a href="#contact" (click)="closeNavbar()">Kontakt</a></li>
+    <ul class="menu-list">  
+      <li>
+        <select #langSelect (change)="switchLanguage(langSelect.value)" class="language-select">
+          <option *ngFor="let lang of languages" [value]="lang">
+            {{ lang.toUpperCase() }}
+          </option>
+        </select>
+      </li>
+      <li><a href="#about" (click)="closeNavbar()">{{'about' | translate}}</a></li>
+      <li><a href="#how-it-works" (click)="closeNavbar()">{{'howItWorks' | translate}}</a></li>
+      <li><a href="#pricing" (click)="closeNavbar()">{{'pricing.title' | translate}}</a></li>
+      <li><a href="#contact" (click)="closeNavbar()">{{'contact.title' | translate}}</a></li>
     </ul>
   </div>
 </div>
