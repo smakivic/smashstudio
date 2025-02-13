@@ -1,14 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
 body,
 html {
-    // background-color: #000; 
-    background: linear-gradient(to bottom,
-            #000000 0%, // Black
-            #333333 25%, // Dark Gray
-            #666666 50%, // Lighter Gray
-            #333333 75%, // Dark Gray
-            #000000 100% // Black
-        );
+    background-color: #000; 
+    // background: linear-gradient(to bottom,
+    //         #000000 0%, // Black
+    //         #333333 25%, // Dark Gray
+    //         #666666 50%, // Lighter Gray
+    //         #333333 75%, // Dark Gray
+    //         #000000 100% // Black
+    //     );
     margin: 0;
     padding: 0;
     box-sizing: border-box;

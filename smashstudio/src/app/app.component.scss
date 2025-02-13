@@ -3,13 +3,13 @@
 }
 
 .highlight {
-  color: gold;
+  color: #f0b323;
 }
 
 hr {
   border-radius: 30px;
   // border: 2px solid rgb(255, 255, 153);
-  border: 2px solid gold;
+  border: 2px solid #f0b323;
   width: 90%;
 }
 
@@ -21,8 +21,8 @@ hr {
   align-items: center;
   text-align: center;
   padding: 0 20px;
-  margin: 2rem;
   z-index: 2;
+  background: url('../assets/images/sstudio1.jpg') center/cover no-repeat;
 
   .hero-video {
     position: absolute;
@@ -57,7 +57,7 @@ hr {
 
   .btn {
     padding: 12px 24px;
-    background: gold;
+    background: #f0b323;
     color: black;
     text-decoration: none;
     border-radius: 25px;
@@ -85,12 +85,23 @@ hr {
     }
   }
 }
+.home::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+  backdrop-filter: blur(5px); /* Blur effect */
+  z-index: -1;
+}
 
 .section-title {
   font-size: 2rem;
   letter-spacing: 1.5px;
   text-transform: uppercase;
-  background: gold;
+  background: #f0b323;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 30px;
@@ -112,11 +123,11 @@ hr {
   }
 
   .about-text strong {
-    color: gold;
+    color: #f0b323;
   }
 
   .about-text h3 {
-    border-bottom: 2px solid gold;
+    border-bottom: 2px solid #f0b323;
     width: fit-content;
     margin: 0 auto;
     padding-bottom: 5px;
@@ -167,7 +178,7 @@ hr {
     font-size: 2rem;
     letter-spacing: 1.5px;
     text-transform: uppercase;
-    background: gold;
+    background: #f0b323;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     position: relative;
@@ -177,7 +188,7 @@ hr {
   .how-it-works hr {
     width: 80px;
     height: 4px;
-    background: gold;
+    background: #f0b323;
     border: none;
     margin: 10px auto 30px;
   }
@@ -197,7 +208,7 @@ hr {
     font-size: 1.2rem;
     line-height: 1.5;
     border-radius: 15px;
-    box-shadow: 0 4px 10px rgba(255, 215, 0, 0.2);
+    // box-shadow: 0 4px 10px rgba(255, 215, 0, 0.2);
     transition: transform 0.3s ease, background 0.3s ease;
     opacity: 0;
     animation: fadeIn 1s ease forwards;
@@ -288,14 +299,15 @@ hr {
   .home {
     height: 60vh;
   }
-}  
+}
+
 button {
   padding: 12px;
   font-size: 1.2rem;
   // margin: auto;
   border: none;
   border-radius: 25px;
-  background: gold;
+  background: #f0b323;
   color: black;
   cursor: pointer;
   transition: background 0.3s ease, transform 0.3s ease;
@@ -304,7 +316,7 @@ button {
 }
 
 button:hover {
-  background: #ffd700;
+  background: #f0b323;
   transform: scale(1.05);
 }
 
@@ -321,6 +333,7 @@ button:hover {
     gap: 20px;
     max-width: 900px;
     margin: 0 auto;
+    margin-top: 3rem !important;
   }
 
   .package {
@@ -328,14 +341,14 @@ button:hover {
     background: rgba(255, 255, 255, 0.1);
     padding: 20px;
     border-radius: 15px;
-    box-shadow: 0 4px 10px rgba(255, 215, 0, 0.2);
+    // box-shadow: 0 4px 10px rgba(255, 215, 0, 0.2);
     transition: transform 0.3s ease, background 0.3s ease;
   }
 
   .package h3 {
     font-size: 1.5rem;
     margin-bottom: 10px;
-    color: gold;
+    color: #f0b323;
   }
 
   .package p {
@@ -346,12 +359,23 @@ button:hover {
   .package .price {
     font-size: 1.3rem;
     font-weight: bold;
-    color: #ffd700;
+    color: #f0b323;
   }
+
 
   .package:hover {
     transform: scale(1.05);
-    background: rgba(255, 215, 0, 0.2);
+    background: #f0b323;
+    color: #000;
+
+    .price,
+    h3 {
+      color: #000;
+    }
+
+    p {
+      color: #262626;
+    }
   }
 
   /* Bring Your Own Stuff Section */
@@ -360,14 +384,14 @@ button:hover {
     padding: 20px;
     background: rgba(255, 255, 255, 0.1);
     border-radius: 15px;
-    box-shadow: 0 4px 10px rgba(255, 215, 0, 0.2);
+    // box-shadow: 0 4px 10px rgba(255, 215, 0, 0.2);
     max-width: 500px;
     margin-left: auto;
     margin-right: auto;
   }
 
   .custom-break h3 {
-    color: gold;
+    color: #f0b323;
     margin-bottom: 10px;
   }
 
@@ -377,14 +401,14 @@ button:hover {
     padding: 20px;
     background: rgba(255, 255, 255, 0.1);
     border-radius: 15px;
-    box-shadow: 0 4px 10px rgba(255, 215, 0, 0.2);
+    // box-shadow: 0 4px 10px rgba(255, 215, 0, 0.2);
     max-width: 500px;
     margin-left: auto;
     margin-right: auto;
   }
 
   .extras h3 {
-    color: gold;
+    color: #f0b323;
     margin-bottom: 10px;
   }
 
@@ -412,11 +436,11 @@ button:hover {
     }
   }
 
-  @media (min-width: 1200px) {
-    .packages {
-      grid-template-columns: repeat(4, 1fr);
-    }
-  }
+  // @media (min-width: 1200px) {
+  //   .packages {
+  //     grid-template-columns: repeat(4, 1fr);
+  //   }
+  // }
 
 }
 
@@ -461,7 +485,7 @@ button:hover {
     // margin: auto;
     border: none;
     border-radius: 25px;
-    background: gold;
+    background: #f0b323;
     color: black;
     cursor: pointer;
     transition: background 0.3s ease, transform 0.3s ease;
@@ -470,7 +494,7 @@ button:hover {
   }
 
   .contact-form button:hover {
-    background: #ffd700;
+    background: #f0b323;
     transform: scale(1.05);
   }
 
@@ -480,146 +504,195 @@ button:hover {
   width: fit-content;
   margin: auto;
   display: flex;
-  img{
+
+  img {
     width: 30%;
     margin: auto;
   }
 }
 
-footer {
-  background: #111;
-  color: white;
-  padding: 40px 20px;
-  text-align: center;
+.footer {
+  background: #000;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
 
-  .footer-content {
+  .footer-container {
     display: flex;
-    flex-direction: column;
-    gap: 20px;
-    max-width: 900px;
-    margin: 0 auto;
-  }
-
-  .footer-info,
-  .footer-social {
-    background: rgba(255, 255, 255, 0.1);
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(255, 215, 0, 0.2);
-  }
-
-  h3 {
-    color: gold;
-    margin-bottom: 10px;
-  }
-
-  p {
-    font-size: 1rem;
-    margin: 5px 0;
-  }
-
-  p i {
-    margin-right: 8px;
-    color: gold;
-  }
-
-  /* Social Links */
-  .footer-social {
-    display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: center;
   }
 
-  .social-link {
-    color: white;
-    font-size: 1.1rem;
-    margin: 5px 0;
+  /* Centered Social Links */
+  .footer-social {
+    flex: 1;
+    text-align: center;
+  }
+
+  .footer-social a {
+    display: inline-block;
+    margin: 0 10px;
+    color: #f39c12;
     text-decoration: none;
-    transition: color 0.3s ease;
+    font-size: 16px;
+    transition: color 0.3s;
   }
 
-  .social-link i {
-    margin-right: 8px;
-    font-size: 1.2rem;
+  .footer-social a:hover {
+    color: #fff;
+    text-decoration: underline;
   }
 
-  .social-link:hover {
-    color: gold;
+  /* Contact Info */
+  .footer-info {
+    flex: 1;
+    text-align: center;
+    margin-left: 100px
   }
 
-  /* Footer Bottom */
+  .footer-info p {
+    margin: 5px 0;
+    color: #bbb;
+  }
+
+  .footer-info i {
+    margin-right: 5px;
+    color: #f39c12;
+  }
+
+  /* Footer Bottom (Credits) */
   .footer-bottom {
-    margin-top: 20px;
-    border-top: 1px solid gold;
-    padding-top: 10px;
+    margin: 5px 75px 0 5px;
+    flex: 1;
+    text-align: right;
+  }
+
+  .footer-bottom p {
+    font-size: 13px;
+    color: #bbb;
   }
 
   .footer-bottom strong {
-    color: gold;
+    color: #f39c12;
   }
 
-  /* Responsive Layout */
-  @media (min-width: 768px) {
-    .footer-content {
-      flex-direction: row;
-      justify-content: center;
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .footer-container {
+      flex-direction: column;
+      text-align: center;
+      gap: 10px;
     }
 
+    .footer-social,
     .footer-info,
-    .footer-social {
-      width: 48%;
+    .footer-bottom {
       text-align: center;
     }
 
-    .footer-social {
-      align-items: flex-start;
+    .footer-bottom,
+    .footer-info {
+      margin: 0;
     }
   }
-
 }
 
-.fade-in {
-  opacity: 0;
-  animation: fadeIn 2s forwards;
-}
+.gift-card-section {
+  position: relative;
+  background: url("../assets/images/poklon_bon.jpg") center/cover no-repeat;
+  height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
 
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
+
+  /* Blurred Overlay */
+  .gift-card-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    /* Dark semi-transparent overlay */
+    backdrop-filter: blur(5px);
+    /* Slight blur effect */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
   }
 
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-
-@keyframes pulse {
-  0% {
-    text-shadow: 0 0 10px #ff6b6b;
+  /* Content Styling */
+  .gift-card-content {
+    text-align: center;
+    color: #fff;
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 10px;
   }
 
-  50% {
-    text-shadow: 0 0 20px #ffcc70;
+  .gift-card-content h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
   }
 
-  100% {
-    text-shadow: 0 0 10px #ff6b6b;
-  }
-}
-
-
-@media (max-width: 600px) {
-  .navbar ul {
-    flex-direction: column;
+  .gift-card-content p {
+    font-size: 16px;
+    margin-bottom: 15px;
   }
 
-  .home .overlay h1 {
-    font-size: 2rem;
+  /* List Styling */
+  .gift-card-list {
+    list-style: none;
+    padding: 0;
   }
-  button{
-    width: 70%;
+
+  .gift-card-list li {
+    font-size: 14px;
+    margin: 5px 0;
+  }
+
+  /* Button Styling */
+  .gift-card-btn {
+    display: inline-block;
+    background: #f39c12;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background 0.3s;
+  }
+
+  .gift-card-btn:hover {
+    background: #e67e22;
+  }
+
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .gift-card-section {
+      height: auto;
+      padding: 40px 20px;
+    }
+
+    .gift-card-content {
+      max-width: 100%;
+    }
+
+    .gift-card-content h2 {
+      font-size: 18px;
+    }
+
+    .gift-card-content p,
+    .gift-card-list li {
+      font-size: 14px;
+    }
+
+    .gift-card-btn {
+      padding: 8px 16px;
+    }
   }
 }
