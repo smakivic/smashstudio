@@ -19,17 +19,28 @@ export class NavbarComponent {
   closeNavbar() {
     this.isNavbarCollapsed = false;
   }
-  languages = ['srb', 'en']; // Add more languages as needed
-
+  languages = [
+    { code: 'srb', name: 'SRB', flag: 'assets/flags/serbia.svg' },
+    { code: 'en', name: 'EN', flag: 'assets/flags/uk.svg' }
+  ];
+  
   constructor(private translate: TranslateService) {
     const savedLang = localStorage.getItem('language') || 'srb';
     this.translate.use(savedLang);
   }
+  dropdownOpen = false;
+  currentLanguage = this.languages.find(
+    lang => lang.code === (localStorage.getItem('language') || 'srb')
+  ) || this.languages[0];
 
-  switchLanguage(lang: string) {
-    if (lang) {
-      this.translate.use(lang);
-      localStorage.setItem('language', lang);
-    }
+  switchLanguage(langCode: string) {
+    this.translate.use(langCode);
+    localStorage.setItem('language', langCode);
+    this.currentLanguage = this.languages.find(lang => lang.code === langCode) || this.languages[0];
+    this.dropdownOpen = false;
+  }
+
+  toggleDropdown() {
+    this.dropdownOpen = !this.dropdownOpen;
   }
 }
