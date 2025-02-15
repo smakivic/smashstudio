@@ -53,11 +53,12 @@
             "item1": "Gear for 1 person - 9KM",
             "item2": "Small glass bottle - 1.50KM",
             "item3": "Large glass bottle - 3KM",
-            "item4": "Random household item - 2KM",
-            "item5": "Small electronic device - 11KM",
-            "item6": "Medium electronic device - 24KM",
-            "item7": "Large electronic device - 38KM",
-            "item8": "Car windshield - 30KM"
+            "item4": "Random household item - 0.50KM",
+            "item5": "Jar - 1KM",
+            "item6": "Small electronic device - 11KM",
+            "item7": "Medium electronic device - 24KM",
+            "item8": "Large electronic device - 38KM",
+            "item9": "Car windshield - 30KM"
         },
         "button": "Book a session"
     },

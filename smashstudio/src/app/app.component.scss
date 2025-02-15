@@ -299,6 +299,9 @@ hr {
   .home {
     height: 60vh;
   }
+  .mobile{
+    width: 68%;
+  }
 }
 
 button {
@@ -604,7 +607,7 @@ button:hover {
 .gift-card-section {
   position: relative;
   background: url("../assets/images/poklon_bon.jpg") center/cover no-repeat;
-  height: 450px;
+  height: 500px;
   display: flex;
   align-items: center;
   justify-content: center;
