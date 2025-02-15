@@ -1,0 +1,12 @@
+<section id="gallery" class="gallery">
+    <div class="gallery-container">
+      <div class="gallery-track" #track>
+        <img *ngFor="let img of images; let i = index" 
+             [src]="'assets/images/gallery/' + img + '.jpg'" 
+             alt="Gallery Image {{i+1}}" 
+             loading="lazy" 
+             class="gallery-image" />
+      </div>
+    </div>
+  </section>
+  
