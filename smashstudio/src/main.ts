@@ -26,6 +26,6 @@ bootstrapApplication(AppComponent, {
     ]
 }).then(appRef => {
     const translate = appRef.injector.get(TranslateService);
-    translate.setDefaultLang('en'); // Default language
-    translate.use('en'); // Change this dynamically based on user preference
+    translate.setDefaultLang('srb'); // Default language
+    translate.use('srb'); // Change this dynamically based on user preference
 });

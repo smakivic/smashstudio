@@ -20,10 +20,10 @@ export class NavbarComponent {
     this.isNavbarCollapsed = false;
   }
   languages = [
-    { code: 'srb', name: 'SRB', flag: 'assets/flags/serbia.svg' },
-    { code: 'en', name: 'EN', flag: 'assets/flags/uk.svg' }
+    { code: 'srb', name: 'Srpski', flag: 'assets/flags/serbia.svg' },
+    { code: 'en', name: 'English', flag: 'assets/flags/uk.svg' }
   ];
-  
+
   constructor(private translate: TranslateService) {
     const savedLang = localStorage.getItem('language') || 'srb';
     this.translate.use(savedLang);
