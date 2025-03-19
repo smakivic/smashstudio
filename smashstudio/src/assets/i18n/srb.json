@@ -22,22 +22,22 @@
         "title": "Cjenovnik",
         "package1": {
             "title": "Udri Mujo",
-            "description": "Osjetite olakšanje dok razbijate mali elektronski uređaj, 8 staklenih flaša i 2 nasumična kućna predmeta! Uživajte u 25 minuta neprekidnog uništavanja uz zaštitnu opremu za jednu osobu.",
+            "description": "Osjetite olakšanje dok razbijate mali elektronski uređaj, 10 staklenih flašica i 2 nasumična kućna predmeta! Uživajte u 25 minuta neprekidnog uništavanja uz zaštitnu opremu za jednu osobu.",
             "price": "Cijena: 23KM"
         },
         "package2": {
             "title": "Dvostruki Slom",
-            "description": "Doživite navalu adrenalina dok razbijate srednji elektronski uređaj, 12 staklenih flaša i 5 nasumičnih kućnih predmeta! Uživajte u punih 30 minuta haosa uz zaštitnu opremu za dve osobe.",
+            "description": "Doživite navalu adrenalina dok razbijate srednji elektronski uređaj, 16 staklenih flašica, 2 flaše i 5 nasumičnih kućnih predmeta! Uživajte u punih 30 minuta haosa uz zaštitnu opremu za dve osobe.",
             "price": "Cijena: 48KM"
         },
         "package3": {
             "title": "Grupna Terapija",
-            "description": "Savršeno za tim! Slomite šoferšajbnu, razbijte 17 staklenih flaša i 3 velike staklene flaše. Oslobodite sav stres u 40 minuta totalnog uništavanja uz zaštitnu opremu za četiri osobe.",
+            "description": "Savršeno za tim! Slomite šoferšajbnu, razbijte 22 staklenih flaša i 5 velike staklene flaše. Oslobodite sav stres u 40 minuta totalnog uništavanja uz zaštitnu opremu za četiri osobe.",
             "price": "Cijena: 63KM"
         },
         "package4": {
             "title": "Potpuni Haos",
-            "description": "Ultimativni izazov za prave ljubitelje haosa! Uništite veliki elektronski uređaj, 3 velike staklene flaše, 20 malih staklenih flaša i 10 nasumičnih kućnih predmeta. Imate 45 minuta za potpunu destrukciju uz zaštitnu opremu za četiri osobe.",
+            "description": "Ultimativni izazov za prave ljubitelje haosa! Uništite veliki elektronski uređaj, 8 velike staklene flaše, 28 malih staklenih flaša i 10 nasumičnih kućnih predmeta. Imate 45 minuta za potpunu destrukciju uz zaštitnu opremu za četiri osobe.",
             "price": "Cijena: 84KM"
         },
         "custom": {
