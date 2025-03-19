@@ -23,22 +23,22 @@
         "title": "Pricing",
         "package1": {
             "title": "Smash Mujo",
-            "description": "Feel the relief as you smash a small electronic device, 8 glass bottles, and 2 random household items! Enjoy 25 minutes of uninterrupted destruction with protective gear included for one person.",
+            "description": "Feel the relief as you smash a small electronic device, 10 small glass bottles, and 2 random household items! Enjoy 25 minutes of uninterrupted destruction with protective gear included for one person.",
             "price": "Price: 23KM"
         },
         "package2": {
             "title": "Double Breakdown",
-            "description": "Experience an adrenaline rush while smashing a medium electronic device, 12 glass bottles, and 5 random household items! Enjoy a full 30 minutes of chaos, with protective gear for two people.",
+            "description": "Experience an adrenaline rush while smashing a medium electronic device, 16 small glass bottles, and 2 large glass bottles, and 5 random household items! Enjoy a full 30 minutes of chaos, with protective gear for two people.",
             "price": "Price: 48KM"
         },
         "package3": {
             "title": "Group Therapy",
-            "description": "Perfect for a team! Break a car windshield, smash 17 glass bottles, and 3 large glass bottles. Release all your stress in 40 minutes of total destruction with protective gear for four people.",
+            "description": "Perfect for a team! Break a car windshield, smash 22 glass bottles, and 5 large glass bottles. Release all your stress in 40 minutes of total destruction with protective gear for four people.",
             "price": "Price: 63KM"
         },
         "package4": {
             "title": "Total Chaos",
-            "description": "The ultimate challenge for real chaos lovers! Destroy a large electronic device, 3 glass bottles, 20 small glass bottles, and 10 random household items. You have 45 minutes for total destruction, with protective gear for four people.",
+            "description": "The ultimate challenge for real chaos lovers! Destroy a large electronic device, 8 glass bottles, 28 small glass bottles, and 10 random household items. You have 45 minutes for total destruction, with protective gear for four people.",
             "price": "Price: 84KM"
         },
         "custom": {
