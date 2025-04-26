@@ -1,5 +1,6 @@
-import { Component , AfterViewInit, ViewChild, ElementRef } from '@angular/core';
+import { Component, AfterViewInit, ViewChild, ElementRef } from '@angular/core';
 import { CommonModule } from '@angular/common';
+
 @Component({
   selector: 'app-gallery',
   standalone: true,
@@ -7,28 +8,43 @@ import { CommonModule } from '@angular/common';
   templateUrl: './gallery.component.html',
   styleUrl: './gallery.component.scss'
 })
-export class GalleryComponent implements AfterViewInit{
+export class GalleryComponent implements AfterViewInit {
   images = Array.from({ length: 9 }, (_, i) => i + 1);
 
-  @ViewChild('track', { static: false }) track!: ElementRef;
+  @ViewChild('track', { static: false }) track!: ElementRef<HTMLDivElement>;
+
+  isPaused = false;
+  scrollX = 0;
 
   ngAfterViewInit() {
     const track = this.track.nativeElement;
-    let scrollAmount = 0;
 
-    function scrollGallery() {
-      scrollAmount += 0.1; // Slower scrolling speed
-      if (scrollAmount >= track.scrollWidth / 2) {
-        scrollAmount = 0;
-      }
-      track.style.transform = `translateX(-${scrollAmount}px)`;
-      requestAnimationFrame(scrollGallery);
+    const originalChildren = Array.from(track.children);
+    for (let i = 0; i < 4; i++) { // 5x clone
+      originalChildren.forEach(child => {
+        track.appendChild(child.cloneNode(true));
+      });
     }
 
-    // Duplicate images for continuous loop
-    const clone = track.cloneNode(true);
-    track.parentNode.appendChild(clone);
+    const animate = () => {
+      if (!this.isPaused) {
+        this.scrollX -= 1.2; // Speed of movement
+        track.style.transform = `translateX(${this.scrollX}px)`;
+      }
 
-    requestAnimationFrame(scrollGallery);
+      if (Math.abs(this.scrollX) > track.scrollWidth / 3) {
+        this.scrollX = 0;
+      }
+
+      requestAnimationFrame(animate);
+    };
+
+    // Pause on hover
+    track.querySelectorAll('img').forEach(img => {
+      img.addEventListener('mouseenter', () => this.isPaused = true);
+      img.addEventListener('mouseleave', () => this.isPaused = false);
+    });
+
+    requestAnimationFrame(animate);
   }
 }
