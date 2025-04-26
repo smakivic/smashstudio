@@ -53,7 +53,7 @@
             "item2": "Mala staklena flaša - 1.50KM",
             "item3": "Velika staklena flaša - 3KM",
             "item4": "Nasumični kućni predmet - 0.50KM",
-            "item5": "Tegla - 1KM",	
+            "item5": "Tegla - 1KM",
             "item6": "Mali elektronski uređaj - 11KM",
             "item7": "Srednji elektronski uređaj - 24KM",
             "item8": "Veliki elektronski uređaj - 38KM",
@@ -82,5 +82,24 @@
     },
     "footer-rights": "Sva prava zadržana",
     "footer-credits": "Napravljeno od strane:",
-    "footer-credits2": "Slike uslikala:"
+    "footer-credits2": "Slike uslikala:",
+    "nav-faq": "Česta Pitanja",
+    "faq": {
+        "title": "Česta Pitanja",
+        "question1": "Šta je Smash Studio?",
+        "answer1": "Smash Studio je kreativni i jedinstveni prostor gde možete bezbijedno razbijati predmete, osloboditi stres i zabaviti se. Nudimo nezaboravna smash iskustva!",
+        "question2": "Da li mogu da snimam ili fotografišem?",
+        "answer2": "Naravno! Takođe nudimo opciju kupovine fotografije sa Instax fotoaparatom ili snimka sa nadzorne kamere.",
+        "question3": "Da li postoji mogućnost kupovine dodatnih predmeta za razbijanje?",
+        "answer3": "Da, možete na licu mesta kupiti dodatne predmete ako želite produžiti ili pojačati iskustvo.",
+        "question4": "Da li mogu organizovati proslavu rođendana ili team building?",
+        "answer4": "Da! Smash Studio nudi posebne pakete za rođendane, team buildinge i druge proslave.",
+        "question5": "Da li postoje starosna ograničenja?",
+        "answer5": "Minimalna starost je 15 godina uz pratnju roditelja, ili 18 godina bez pratnje.",
+        "question6": "Šta da obučem?",
+        "answer6": "Nosite udobnu odeću, po mogućnosti sportsku ili ležernu. Preporučujemo da ponesete dodatni set odeće, za svaki slučaj!",    
+        "question7": "Da li mogu puštati svoju muziku?",
+        "answer7": "Da! U prostoriji se nalazi telefon koji možete koristiti za puštanje muzike preko Spotify-a, YouTube-a ili bilo koje druge aplikacije."
+    
+    }
 }
