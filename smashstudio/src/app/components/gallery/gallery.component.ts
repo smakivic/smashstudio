@@ -17,7 +17,7 @@ export class GalleryComponent implements AfterViewInit{
     let scrollAmount = 0;
 
     function scrollGallery() {
-      scrollAmount += 0.3; // Slower scrolling speed
+      scrollAmount += 0.1; // Slower scrolling speed
       if (scrollAmount >= track.scrollWidth / 2) {
         scrollAmount = 0;
       }

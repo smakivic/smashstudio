@@ -1,0 +1,102 @@
+/* Mobile-first design */
+.faq {
+    padding: 20px;
+  }
+  
+  .faq h2 {
+    text-align: center;
+  }
+  
+  .accordion {
+    margin: 0 auto;
+    width: 90%;
+  }
+  
+  .accordion .faq-item {
+    margin-bottom: 10px;
+    border: 2px solid #000;
+    border-bottom: 2px solid #f0b323;
+    overflow: hidden;
+    border-radius: 8px;
+    transition: border-color 0.3s ease;
+  }
+  
+  /* Hover effect on faq-item */
+  .accordion .faq-item:hover {
+    border-color: #f0b323;
+  }
+  
+  /* Question Section */
+  .faq-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  /* Hover effect on question */
+  .faq-question:hover {
+    background-color: #f0b323;
+    color: #000;
+  }
+  
+  /* Question text */
+  .faq-question h3 {
+    margin: 0;
+  }
+  
+  /* Icon */
+  .faq-question i {
+    font-size: 18px;
+    transition: transform 0.3s ease;
+  }
+  
+  /* Rotate icon when open */
+  .faq-question i.fa-minus {
+    transform: rotate(180deg);
+  }
+  
+  /* Answer Section */
+  .faq-answer {
+    padding: 0 20px;
+    background-color: #000;
+    color: #fff;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease, padding 0.3s ease;
+  }
+  
+  /* When open, expand answer */
+  .faq-item.open .faq-answer {
+    max-height: 500px; /* Enough to fit most content */
+    padding: 15px 20px;
+  }
+  .arrow {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    transform: rotate(45deg);
+    transition: transform 0.4s cubic-bezier(0.68, -0.55, 0.27, 1.55); /* subtle bounce */
+    margin-left: 10px;
+  }
+  
+  /* Rotate arrow up when open */
+  .arrow.open {
+    transform: rotate(-135deg);
+  }
+  @media (min-width: 768px) {
+    .faq-question {
+      font-size: 1.1rem;
+    }
+  
+    .faq-answer {
+      font-size: 1rem;
+    }
+  }
+  

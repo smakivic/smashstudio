@@ -1,0 +1,15 @@
+<section id="faq" class="faq">
+    <h2 class="section-title">{{ 'faq.title' | translate }}</h2>
+    <hr>
+    <div class="accordion">
+        <div *ngFor="let faq of faqs; let i = index" class="faq-item" [class.open]="faq.isOpen">
+            <div class="faq-question" (click)="toggle(i)">
+                <h3>{{ faq.question }}</h3>
+                <span class="arrow" [class.open]="faq.isOpen"></span>
+            </div>
+            <div class="faq-answer" [class.open]="faq.isOpen">
+                <p>{{ faq.answer }}</p>
+            </div>
+        </div>
+    </div>
+</section>
