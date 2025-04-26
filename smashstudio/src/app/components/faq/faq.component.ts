@@ -10,11 +10,15 @@ import { CommonModule } from '@angular/common';
 })
 export class FaqComponent {
   faqs = [
-    { question: 'What is Smash Studio?', answer: 'Smash Studio is a creative space offering various services including...', isOpen: false },
-    { question: 'How do I book an appointment?', answer: 'You can book an appointment through our online platform...', isOpen: false },
-    { question: 'What services are offered?', answer: 'We offer a range of services from photography to...', isOpen: false },
-    { question: 'Do you offer gift cards?', answer: 'Yes, Smash Studio offers gift cards for different services...', isOpen: false }
+    { questionKey: 'faq.question1', answerKey: 'faq.answer1', isOpen: false },
+    { questionKey: 'faq.question2', answerKey: 'faq.answer2', isOpen: false },
+    { questionKey: 'faq.question3', answerKey: 'faq.answer3', isOpen: false },
+    { questionKey: 'faq.question4', answerKey: 'faq.answer4', isOpen: false },
+    { questionKey: 'faq.question5', answerKey: 'faq.answer5', isOpen: false },
+    { questionKey: 'faq.question6', answerKey: 'faq.answer6', isOpen: false },
+    { questionKey: 'faq.question7', answerKey: 'faq.answer7', isOpen: false }
   ];
+
 
   toggle(index: number): void {
     this.faqs[index].isOpen = !this.faqs[index].isOpen;
