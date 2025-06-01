@@ -46,6 +46,12 @@
             "description": "The ultimate challenge for true chaos lovers! Destroy a large electronic device, 8 large glass bottles, 28 small glass bottles, 5 random household items, and 8 jars. You get 45 minutes for complete destruction with protective gear for four people.",
             "price": "Price: 84KM"
         },
+        "package6": {
+            "title": "Team Building",
+            "description": "Bring your team for a unique stress-relief experience! Each participant gets 10 small glass bottles, 3 large glass bottles, and 2 jars, along with full protective gear. The main smashable items are selected upon arrival, and fun is guaranteed! Perfect for companies and groups looking to relax, laugh, and bond over a good dose of adrenaline. The session lasts 1h 30min for groups of up to 8 people, or 2 hours for larger groups. Minimum group size is 4 participants.",
+            "note": "Note: Main electronic devices (small, medium, large) are charged separately and can be selected on-site. Prices are listed below.",
+            "price": "Price: 15KM per person"
+        },
         "custom": {
             "title": "Bring Your Own Stuff",
             "option1": "10 min - 15KM",
@@ -67,46 +73,46 @@
             "item10": "Polaroid photo - 5KM",
             "item11": "Video recording - 5KM"
         },
-    "button": "Book a session"
-},
-"giftCard": {
-    "title": "Gift Card for Rage Room – An Experience to Remember!",
-    "description": "Looking for an original gift that provides an unforgettable experience and relieves stress? Our gift cards are the perfect way to give someone a smashing adventure!",
-    "list": {
-        "item1": "✅ Perfect gift for any occasion – birthdays, anniversaries, celebrations, or as a thoughtful gesture",
-        "item2": "✅ Easy purchase – visit us, choose your package, and get a gift card to surprise someone with a special experience",
-        "item3": "✅ Flexible usage – the gift card recipient can choose the date and time that suits them best"
+        "button": "Book a session"
     },
-    "highlight": "Give the gift of an adrenaline-filled experience they'll talk about for years!"
-},
-"contact": {
-    "title": "Contact",
-    "form": {
-        "namePlaceholder": "Name",
-        "emailPlaceholder": "Email",
-        "messagePlaceholder": "Message",
-        "submitButton": "Send Message"
+    "giftCard": {
+        "title": "Gift Card for Rage Room – An Experience to Remember!",
+        "description": "Looking for an original gift that provides an unforgettable experience and relieves stress? Our gift cards are the perfect way to give someone a smashing adventure!",
+        "list": {
+            "item1": "✅ Perfect gift for any occasion – birthdays, anniversaries, celebrations, or as a thoughtful gesture",
+            "item2": "✅ Easy purchase – visit us, choose your package, and get a gift card to surprise someone with a special experience",
+            "item3": "✅ Flexible usage – the gift card recipient can choose the date and time that suits them best"
+        },
+        "highlight": "Give the gift of an adrenaline-filled experience they'll talk about for years!"
+    },
+    "contact": {
+        "title": "Contact",
+        "form": {
+            "namePlaceholder": "Name",
+            "emailPlaceholder": "Email",
+            "messagePlaceholder": "Message",
+            "submitButton": "Send Message"
+        }
+    },
+    "footer-rights": "All rights reserved",
+    "footer-credits": "Made by:",
+    "footer-credits2": "Photos by:",
+    "nav-faq": "FAQ",
+    "faq": {
+        "title": "Frequently Asked Questions",
+        "question1": "What is Smash Studio?",
+        "answer1": "Smash Studio is a creative and unique space where you can safely smash objects, release stress, and have fun. We offer unforgettable smashing experiences!",
+        "question2": "Can I record or take photos?",
+        "answer2": "Of course! We also offer the option to buy a photo taken with an Instax camera or footage from our security camera.",
+        "question3": "Can I buy additional smashable items?",
+        "answer3": "Yes, you can buy additional items on-site if you want to extend or enhance your smashing experience.",
+        "question4": "Can I organize a birthday party or team building event?",
+        "answer4": "Yes! Smash Studio offers special packages for birthdays, team buildings, and other celebrations.",
+        "question5": "Are there any age restrictions?",
+        "answer5": "The minimum age is 15 years old with parental supervision, or 18 years old without supervision.",
+        "question6": "What should I wear?",
+        "answer6": "Wear comfortable clothes, preferably sporty or casual. We recommend bringing an extra set of clothes just in case!",
+        "question7": "Can I play my own music?",
+        "answer7": "Yes! There is a phone inside the room that you can use to play anything you want through Spotify, YouTube, or any other app."
     }
-},
-"footer-rights": "All rights reserved",
-"footer-credits": "Made by:",
-"footer-credits2": "Photos by:",
-"nav-faq": "FAQ",
-"faq": {
-    "title": "Frequently Asked Questions",
-    "question1": "What is Smash Studio?",
-    "answer1": "Smash Studio is a creative and unique space where you can safely smash objects, release stress, and have fun. We offer unforgettable smashing experiences!",
-    "question2": "Can I record or take photos?",
-    "answer2": "Of course! We also offer the option to buy a photo taken with an Instax camera or footage from our security camera.",
-    "question3": "Can I buy additional smashable items?",
-    "answer3": "Yes, you can buy additional items on-site if you want to extend or enhance your smashing experience.",
-    "question4": "Can I organize a birthday party or team building event?",
-    "answer4": "Yes! Smash Studio offers special packages for birthdays, team buildings, and other celebrations.",
-    "question5": "Are there any age restrictions?",
-    "answer5": "The minimum age is 15 years old with parental supervision, or 18 years old without supervision.",
-    "question6": "What should I wear?",
-    "answer6": "Wear comfortable clothes, preferably sporty or casual. We recommend bringing an extra set of clothes just in case!",
-    "question7": "Can I play my own music?",
-    "answer7": "Yes! There is a phone inside the room that you can use to play anything you want through Spotify, YouTube, or any other app."
-}
 }

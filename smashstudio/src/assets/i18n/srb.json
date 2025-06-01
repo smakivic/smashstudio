@@ -45,6 +45,12 @@
             "description": "Ultimativni izazov za prave ljubitelje haosa! Uništite veliki elektronski uređaj, 8 velikih staklenih flaša, 28 malih staklenih flašica, 5 nasumičnih koamda kućnog posuđa i 8 tegli. Imate 45 minuta za potpunu destrukciju uz zaštitnu opremu za četiri osobe.",
             "price": "Cijena: 84KM"
         },
+        "package6": {
+            "title": "Tim Bilding",
+            "description": "Povedite svoj tim na jedinstveno antistres iskustvo! Svaki učesnik dobija 10 staklenih flašica, 3 velike staklene flaše i 2 tegle, uz kompletnu zaštitnu opremu. Glavni predmeti za razbijanje se biraju po dolasku, a zabava je zagarantovana! Idealno za firme i grupe koje žele da se opuste, nasmiju i zbliže uz dobru dozu adrenalina. Paket traje 1h 30min za grupe do 8 osoba, odnosno 2 sata za grupe veće od 8 osoba. Minimalan broj učesnika je 4.",
+            "note": "Napomena: Glavni električni uređaji (mali, srednji, veliki) naplaćuju se dodatno i mogu se odabrati prilikom dolaska. Cijene se nalaze u nastavku.",
+            "price": "Cijena: 15KM po osobi"
+        },
         "custom": {
             "title": "Donesite Svoje Stvari",
             "option1": "10 min - 15KM",
