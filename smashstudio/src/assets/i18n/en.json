@@ -22,23 +22,28 @@
     "pricing": {
         "title": "Pricing",
         "package1": {
-            "title": "Smash Mujo",
-            "description": "Feel the relief as you smash a small electronic device, 10 small glass bottles, and 2 random household items! Enjoy 25 minutes of uninterrupted destruction with protective gear included for one person.",
-            "price": "Price: 23KM"
+            "title": "First Strike",
+            "description": "Experience what it feels like to release stress the right way! The First Strike package gives you a short but intense smashing session with a few glass bottles, one plate, and one jar. Perfect for those who want to get a first taste of the rage room!",
+            "price": "Price: 5KM"
         },
         "package2": {
-            "title": "Double Breakdown",
-            "description": "Experience an adrenaline rush while smashing a medium electronic device, 16 small glass bottles, and 2 large glass bottles, and 5 random household items! Enjoy a full 30 minutes of chaos, with protective gear for two people.",
-            "price": "Price: 48KM"
+            "title": "Hit It Mujo",
+            "description": "Feel the relief as you smash a small electronic device, 10 glass bottles, 2 random household items, and 2 jars! Enjoy 25 minutes of uninterrupted destruction with protective gear for one person.",
+            "price": "Price: 21KM"
         },
         "package3": {
-            "title": "Group Therapy",
-            "description": "Perfect for a team! Break a car windshield, smash 22 glass bottles, and 5 large glass bottles. Release all your stress in 40 minutes of total destruction with protective gear for four people.",
-            "price": "Price: 63KM"
+            "title": "Double Breakdown",
+            "description": "Get your adrenaline pumping as you destroy a medium-sized electronic device, 16 glass bottles, 2 large bottles, 2 random household items, and 5 jars! Enjoy a full 30 minutes of chaos with protective gear for two people.",
+            "price": "Price: 44KM"
         },
         "package4": {
-            "title": "Total Chaos",
-            "description": "The ultimate challenge for real chaos lovers! Destroy a large electronic device, 8 glass bottles, 28 small glass bottles, and 10 random household items. You have 45 minutes for total destruction, with protective gear for four people.",
+            "title": "Group Therapy",
+            "description": "Perfect for a team! Smash a windshield, break 22 glass bottles and 5 large glass bottles. Release all your stress in 40 minutes of total destruction with protective gear for four people.",
+            "price": "Price: 58KM"
+        },
+        "package5": {
+            "title": "Total Mayhem",
+            "description": "The ultimate challenge for true chaos lovers! Destroy a large electronic device, 8 large glass bottles, 28 small glass bottles, 5 random household items, and 8 jars. You get 45 minutes for complete destruction with protective gear for four people.",
             "price": "Price: 84KM"
         },
         "custom": {
@@ -46,60 +51,62 @@
             "option1": "10 min - 15KM",
             "option2": "15 min - 20KM",
             "option3": "30 min - 25KM",
-            "note": "Protective gear included for 4 people"
+            "note": "Protective gear included for up to 4 people"
         },
         "extras": {
-            "title": "Additional Items",
-            "item1": "Gear for 1 person - 9KM",
-            "item2": "Small glass bottle - 1.50KM",
-            "item3": "Large glass bottle - 3KM",
-            "item4": "Random household item - 0.50KM",
+            "title": "Extra Items",
+            "item1": "Protective gear for 1 person - 9KM",
+            "item2": "Small glass bottle - 0.50KM",
+            "item3": "Large glass bottle - 2KM",
+            "item4": "Household item - 1KM",
             "item5": "Jar - 1KM",
             "item6": "Small electronic device - 11KM",
             "item7": "Medium electronic device - 24KM",
             "item8": "Large electronic device - 38KM",
-            "item9": "Car windshield - 30KM"
+            "item9": "Windshield - 30KM",
+            "item10": "Polaroid photo - 5KM",
+            "item11": "Video recording - 5KM"
         },
-        "button": "Book a session"
+    "button": "Book a session"
+},
+"giftCard": {
+    "title": "Gift Card for Rage Room – An Experience to Remember!",
+    "description": "Looking for an original gift that provides an unforgettable experience and relieves stress? Our gift cards are the perfect way to give someone a smashing adventure!",
+    "list": {
+        "item1": "✅ Perfect gift for any occasion – birthdays, anniversaries, celebrations, or as a thoughtful gesture",
+        "item2": "✅ Easy purchase – visit us, choose your package, and get a gift card to surprise someone with a special experience",
+        "item3": "✅ Flexible usage – the gift card recipient can choose the date and time that suits them best"
     },
-    "giftCard": {
-        "title": "Gift Card for Rage Room – An Experience to Remember!",
-        "description": "Looking for an original gift that provides an unforgettable experience and relieves stress? Our gift cards are the perfect way to give someone a smashing adventure!",
-        "list": {
-            "item1": "✅ Perfect gift for any occasion – birthdays, anniversaries, celebrations, or as a thoughtful gesture",
-            "item2": "✅ Easy purchase – visit us, choose your package, and get a gift card to surprise someone with a special experience",
-            "item3": "✅ Flexible usage – the gift card recipient can choose the date and time that suits them best"
-        },
-        "highlight": "Give the gift of an adrenaline-filled experience they'll talk about for years!"
-    },
-    "contact": {
-        "title": "Contact",
-        "form": {
-            "namePlaceholder": "Name",
-            "emailPlaceholder": "Email",
-            "messagePlaceholder": "Message",
-            "submitButton": "Send Message"
-        }
-    },
-    "footer-rights": "All rights reserved",
-    "footer-credits": "Made by:",
-    "footer-credits2": "Photos by:",
-    "nav-faq": "FAQ",
-    "faq": {
-        "title": "Frequently Asked Questions",
-        "question1": "What is Smash Studio?",
-        "answer1": "Smash Studio is a creative and unique space where you can safely smash objects, release stress, and have fun. We offer unforgettable smashing experiences!",
-        "question2": "Can I record or take photos?",
-        "answer2": "Of course! We also offer the option to buy a photo taken with an Instax camera or footage from our security camera.",
-        "question3": "Can I buy additional smashable items?",
-        "answer3": "Yes, you can buy additional items on-site if you want to extend or enhance your smashing experience.",
-        "question4": "Can I organize a birthday party or team building event?",
-        "answer4": "Yes! Smash Studio offers special packages for birthdays, team buildings, and other celebrations.",
-        "question5": "Are there any age restrictions?",
-        "answer5": "The minimum age is 15 years old with parental supervision, or 18 years old without supervision.",
-        "question6": "What should I wear?",
-        "answer6": "Wear comfortable clothes, preferably sporty or casual. We recommend bringing an extra set of clothes just in case!",
-        "question7": "Can I play my own music?",
-        "answer7": "Yes! There is a phone inside the room that you can use to play anything you want through Spotify, YouTube, or any other app."
+    "highlight": "Give the gift of an adrenaline-filled experience they'll talk about for years!"
+},
+"contact": {
+    "title": "Contact",
+    "form": {
+        "namePlaceholder": "Name",
+        "emailPlaceholder": "Email",
+        "messagePlaceholder": "Message",
+        "submitButton": "Send Message"
     }
+},
+"footer-rights": "All rights reserved",
+"footer-credits": "Made by:",
+"footer-credits2": "Photos by:",
+"nav-faq": "FAQ",
+"faq": {
+    "title": "Frequently Asked Questions",
+    "question1": "What is Smash Studio?",
+    "answer1": "Smash Studio is a creative and unique space where you can safely smash objects, release stress, and have fun. We offer unforgettable smashing experiences!",
+    "question2": "Can I record or take photos?",
+    "answer2": "Of course! We also offer the option to buy a photo taken with an Instax camera or footage from our security camera.",
+    "question3": "Can I buy additional smashable items?",
+    "answer3": "Yes, you can buy additional items on-site if you want to extend or enhance your smashing experience.",
+    "question4": "Can I organize a birthday party or team building event?",
+    "answer4": "Yes! Smash Studio offers special packages for birthdays, team buildings, and other celebrations.",
+    "question5": "Are there any age restrictions?",
+    "answer5": "The minimum age is 15 years old with parental supervision, or 18 years old without supervision.",
+    "question6": "What should I wear?",
+    "answer6": "Wear comfortable clothes, preferably sporty or casual. We recommend bringing an extra set of clothes just in case!",
+    "question7": "Can I play my own music?",
+    "answer7": "Yes! There is a phone inside the room that you can use to play anything you want through Spotify, YouTube, or any other app."
+}
 }

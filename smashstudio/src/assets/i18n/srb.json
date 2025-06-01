@@ -21,23 +21,28 @@
     "pricing": {
         "title": "Cjenovnik",
         "package1": {
-            "title": "Udri Mujo",
-            "description": "Osjetite olakšanje dok razbijate mali elektronski uređaj, 10 staklenih flašica i 2 nasumična kućna predmeta! Uživajte u 25 minuta neprekidnog uništavanja uz zaštitnu opremu za jednu osobu.",
-            "price": "Cijena: 23KM"
+            "title": "Prvi udarac",
+            "description": "Isprobajte kako izgleda osloboditi stres na pravi način! U paketu Prvi udarac dobijate kratku, ali intenzivnu sesiju razbijanja sa nekoliko staklenih flašica, jednim tanjirom i jednom teglom. Idealno za sve koji žele prvi put da osjete čari rage room-a!",
+            "price": "Cijena: 5KM"
         },
         "package2": {
-            "title": "Dvostruki Slom",
-            "description": "Doživite navalu adrenalina dok razbijate srednji elektronski uređaj, 16 staklenih flašica, 2 flaše i 5 nasumičnih kućnih predmeta! Uživajte u punih 30 minuta haosa uz zaštitnu opremu za dve osobe.",
-            "price": "Cijena: 48KM"
+            "title": "Udri Mujo",
+            "description": "Osjetite olakšanje dok razbijate mali elektronski uređaj, 10 staklenih flašica, 2 nasumična komada kućnog posuđa i 2 tegle! Uživajte u 25 minuta neprekidnog uništavanja uz zaštitnu opremu za jednu osobu.",
+            "price": "Cijena: 21KM"
         },
         "package3": {
-            "title": "Grupna Terapija",
-            "description": "Savršeno za tim! Slomite šoferšajbnu, razbijte 22 staklenih flaša i 5 velike staklene flaše. Oslobodite sav stres u 40 minuta totalnog uništavanja uz zaštitnu opremu za četiri osobe.",
-            "price": "Cijena: 63KM"
+            "title": "Dvostruki Slom",
+            "description": "Doživite navalu adrenalina dok razbijate srednji elektronski uređaj, 16 staklenih flašica, 2 flaše, 2 nasumična koamda kućnog posuđa i 5 tegli! Uživajte u punih 30 minuta haosa uz zaštitnu opremu za dve osobe.",
+            "price": "Cijena: 44KM"
         },
         "package4": {
+            "title": "Grupna Terapija",
+            "description": "Savršeno za tim! Slomite šoferšajbnu, razbijte 22 staklene flašice i 5 velikih staklenih flaša. Oslobodite sav stres u 40 minuta totalnog uništavanja uz zaštitnu opremu za četiri osobe.",
+            "price": "Cijena: 58KM"
+        },
+        "package5": {
             "title": "Potpuni Haos",
-            "description": "Ultimativni izazov za prave ljubitelje haosa! Uništite veliki elektronski uređaj, 8 velike staklene flaše, 28 malih staklenih flaša i 10 nasumičnih kućnih predmeta. Imate 45 minuta za potpunu destrukciju uz zaštitnu opremu za četiri osobe.",
+            "description": "Ultimativni izazov za prave ljubitelje haosa! Uništite veliki elektronski uređaj, 8 velikih staklenih flaša, 28 malih staklenih flašica, 5 nasumičnih koamda kućnog posuđa i 8 tegli. Imate 45 minuta za potpunu destrukciju uz zaštitnu opremu za četiri osobe.",
             "price": "Cijena: 84KM"
         },
         "custom": {
@@ -50,14 +55,16 @@
         "extras": {
             "title": "Dodatni Predmeti",
             "item1": "Oprema za 1 osobu - 9KM",
-            "item2": "Mala staklena flaša - 1.50KM",
-            "item3": "Velika staklena flaša - 3KM",
-            "item4": "Nasumični kućni predmet - 0.50KM",
+            "item2": "Mala staklena flašica - 0.50KM",
+            "item3": "Velika staklena flaša - 2KM",
+            "item4": "Kućno posuđe - 1KM",
             "item5": "Tegla - 1KM",
-            "item6": "Mali elektronski uređaj - 11KM",
-            "item7": "Srednji elektronski uređaj - 24KM",
-            "item8": "Veliki elektronski uređaj - 38KM",
-            "item9": "Šoferšajbna - 30KM"
+            "item6": "Mali elektični uređaj - 11KM",
+            "item7": "Srednji elektični uređaj - 24KM",
+            "item8": "Veliki elektični uređaj - 38KM",
+            "item9": "Šoferšajbna - 30KM",
+            "item10": "Polaroid fotografija - 5KM",
+            "item11": "Video snimak - 5KM"
         },
         "button": "Rezervišite termin"
     },
@@ -97,9 +104,8 @@
         "question5": "Da li postoje starosna ograničenja?",
         "answer5": "Minimalna starost je 15 godina uz pratnju roditelja, ili 18 godina bez pratnje.",
         "question6": "Šta da obučem?",
-        "answer6": "Nosite udobnu odijeću, po mogućnosti sportsku ili ležernu. Preporučujemo da ponesete dodatni set odijeće, za svaki slučaj!",    
+        "answer6": "Nosite udobnu odijeću, po mogućnosti sportsku ili ležernu. Preporučujemo da ponesete dodatni set odijeće, za svaki slučaj!",
         "question7": "Da li mogu puštati svoju muziku?",
         "answer7": "Da! U prostoriji se nalazi telefon koji možete koristiti za puštanje muzike preko Spotify-a, YouTube-a ili bilo koje druge aplikacije."
-    
     }
 }
