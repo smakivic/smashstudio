@@ -21,6 +21,7 @@ hr {
   align-items: center;
   text-align: center;
   padding: 0 20px;
+  padding-top: 130px;
   z-index: 2;
   background: url('../assets/images/sstudio1.jpg') center/cover no-repeat;
 
@@ -358,6 +359,10 @@ button:hover {
   .package p {
     font-size: 1rem;
     margin: 5px 0;
+    
+    &:not(.price) {
+      white-space: pre-line;
+    }
   }
 
   .package .price {

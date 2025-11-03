@@ -21,36 +21,31 @@
     "contactUs": "Send Message",
     "pricing": {
         "title": "Pricing",
-        "package1": {
-            "title": "First Strike",
-            "description": "Experience what it feels like to release stress the right way! The First Strike package gives you a short but intense smashing session with a few glass bottles, one plate, and one jar. Perfect for those who want to get a first taste of the rage room!",
-            "price": "Price: 5KM"
-        },
+
         "package2": {
             "title": "Hit It Mujo",
-            "description": "Feel the relief as you smash a small electronic device, 10 glass bottles, 2 random household items, and 2 jars! Enjoy 25 minutes of uninterrupted destruction with protective gear for one person.",
-            "price": "Price: 21KM"
+            "description": "● Smaller electrical device (e.g.: laptop)\n● 11 glass bottles\n● 2 household items\n● 2 jars\n● 1 glass bottle\n● Equipment provided: For 1 person",
+            "price": "Price: 25KM"
         },
         "package3": {
             "title": "Double Breakdown",
-            "description": "Get your adrenaline pumping as you destroy a medium-sized electronic device, 16 glass bottles, 2 large bottles, 2 random household items, and 5 jars! Enjoy a full 30 minutes of chaos with protective gear for two people.",
-            "price": "Price: 44KM"
+            "description": "● Medium electrical device (e.g.: monitor)\n● 24 glass bottles\n● 2 household items\n● 4 jars\n● 2 glass bottles\n● Equipment provided: For 2 people",
+            "price": "Price: 45KM"
         },
         "package4": {
             "title": "Group Therapy",
-            "description": "Perfect for a team! Smash a windshield, break 22 glass bottles and 5 large glass bottles. Release all your stress in 40 minutes of total destruction with protective gear for four people.",
-            "price": "Price: 58KM"
+            "description": "● Car windshield\n● 33 glass bottles\n● 2 household items\n● 4 jars\n● 2 glass bottles\n● Equipment provided: For 4 people",
+            "price": "Price: 60KM"
         },
         "package5": {
             "title": "Total Mayhem",
-            "description": "The ultimate challenge for true chaos lovers! Destroy a large electronic device, 8 large glass bottles, 28 small glass bottles, 5 random household items, and 8 jars. You get 45 minutes for complete destruction with protective gear for four people.",
-            "price": "Price: 84KM"
+            "description": "● Medium and large electrical device (e.g.: monitor and case)\n● 37 glass bottles\n● 4 household items\n● 8 jars\n● 4 glass bottles\n● Equipment provided: For 4 people",
+            "price": "Price: 80KM"
         },
         "package6": {
             "title": "Team Building",
-            "description": "Bring your team for a unique stress-relief experience! Each participant gets 10 small glass bottles, 3 large glass bottles, and 2 jars, along with full protective gear. The main smashable items are selected upon arrival, and fun is guaranteed! Perfect for companies and groups looking to relax, laugh, and bond over a good dose of adrenaline. The session lasts 1h 30min for groups of up to 8 people, or 2 hours for larger groups. Minimum group size is 4 participants.",
-            "note": "Note: Main electronic devices (small, medium, large) are charged separately and can be selected on-site. Prices are listed below.",
-            "price": "Price: 15KM per person"
+            "description": "Special packages for companies created according to client wishes and needs.",
+            "price": "Upon agreement"
         },
         "custom": {
             "title": "Bring Your Own Stuff",

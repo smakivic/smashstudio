@@ -20,36 +20,31 @@
     "contactUs": "Pošalji poruku",
     "pricing": {
         "title": "Cjenovnik",
-        "package1": {
-            "title": "Prvi udarac",
-            "description": "Isprobajte kako izgleda osloboditi stres na pravi način! U paketu Prvi udarac dobijate kratku, ali intenzivnu sesiju razbijanja sa nekoliko staklenih flašica, jednim tanjirom i jednom teglom. Idealno za sve koji žele prvi put da osjete čari rage room-a!",
-            "price": "Cijena: 5KM"
-        },
+
         "package2": {
             "title": "Udri Mujo",
-            "description": "Osjetite olakšanje dok razbijate mali elektronski uređaj, 10 staklenih flašica, 2 nasumična komada kućnog posuđa i 2 tegle! Uživajte u 25 minuta neprekidnog uništavanja uz zaštitnu opremu za jednu osobu.",
-            "price": "Cijena: 21KM"
+            "description": "● Manji električni uređaj (npr: laptop)\n● 11 staklenih flašica\n● 2 komada kućnog posuđa\n● 2 tegle\n● 1 staklena flaša\n● Oprema obezbjeđena: Za 1 osobu",
+            "price": "Cijena: 25KM"
         },
         "package3": {
             "title": "Dvostruki Slom",
-            "description": "Doživite navalu adrenalina dok razbijate srednji elektronski uređaj, 16 staklenih flašica, 2 flaše, 2 nasumična koamda kućnog posuđa i 5 tegli! Uživajte u punih 30 minuta haosa uz zaštitnu opremu za dve osobe.",
-            "price": "Cijena: 44KM"
+            "description": "● Srednji električni uređaj (npr: monitor)\n● 24 staklene flašice\n● 2 komada kućnog posuđa\n● 4 tegle\n● 2 staklena flaša\n● Oprema obezbjeđena: Za 2 osobe",
+            "price": "Cijena: 45KM"
         },
         "package4": {
             "title": "Grupna Terapija",
-            "description": "Savršeno za tim! Slomite šoferšajbnu, razbijte 22 staklene flašice i 5 velikih staklenih flaša. Oslobodite sav stres u 40 minuta totalnog uništavanja uz zaštitnu opremu za četiri osobe.",
-            "price": "Cijena: 58KM"
+            "description": "● Šajba od auta\n● 33 staklenih flašica\n● 2 komada kućnog posuđa\n● 4 tegle\n● 2 staklene flaše\n● Oprema obezbjeđena: Za 4 osobe",
+            "price": "Cijena: 60KM"
         },
         "package5": {
             "title": "Potpuni Haos",
-            "description": "Ultimativni izazov za prave ljubitelje haosa! Uništite veliki elektronski uređaj, 8 velikih staklenih flaša, 28 malih staklenih flašica, 5 nasumičnih koamda kućnog posuđa i 8 tegli. Imate 45 minuta za potpunu destrukciju uz zaštitnu opremu za četiri osobe.",
-            "price": "Cijena: 84KM"
+            "description": "● Srednji i veliki električni uređaj (npr: monitor i kućište)\n● 37 staklenih flašica\n● 4 komada kućnog posuđa\n● 8 tegli\n● 4 staklene flaše\n● Oprema obezbjeđena: Za 4 osobe",
+            "price": "Cijena: 80KM"
         },
         "package6": {
             "title": "Tim Bilding",
-            "description": "Povedite svoj tim na jedinstveno antistres iskustvo! Svaki učesnik dobija 10 staklenih flašica, 3 velike staklene flaše i 2 tegle, uz kompletnu zaštitnu opremu. Glavni predmeti za razbijanje se biraju po dolasku, a zabava je zagarantovana! Idealno za firme i grupe koje žele da se opuste, nasmiju i zbliže uz dobru dozu adrenalina. Paket traje 1h 30min za grupe do 8 osoba, odnosno 2 sata za grupe veće od 8 osoba. Minimalan broj učesnika je 4.",
-            "note": "Napomena: Glavni električni uređaji (mali, srednji, veliki) naplaćuju se dodatno i mogu se odabrati prilikom dolaska. Cijene se nalaze u nastavku.",
-            "price": "Cijena: 15KM po osobi"
+            "description": "Posebni paketi za firme kreirani u skladu sa željama i potrebama klijenata.",
+            "price": "Po dogovoru"
         },
         "custom": {
             "title": "Donesite Svoje Stvari",
